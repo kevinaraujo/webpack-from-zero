@@ -1,8 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { NavBar } from './styles';
 
 const App = () => {
-    return <h1>NavBar</h1>
+    return (
+       <div>
+            <NavBar>
+                Olá
+            </NavBar>
+       </div>   
+    )
 }
 
 const container = document.getElementById('root')
